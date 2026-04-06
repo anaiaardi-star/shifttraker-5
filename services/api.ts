@@ -43,19 +43,19 @@ const AUTH_KEY = 'shifttrack_auth_user';
 const ACTIVE_SESSION_KEY = 'shifttrack_active_session_v1';
 
 const WEBHOOKS = {
-  REGISTRO: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-registro',
-  LOGIN: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-login',
-  INFO_USUARIO: 'https://n8n.smarttitan.pro/webhook/shifttytrack-miperfil',
-  INICIO_TURNO: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-horadeinicio',
-  FIN_TURNO: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-horafinal',
-  HISTORIAL_DATOS: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-cargadedatos',
-  MIS_DATOS: 'https://n8n.smarttitan.pro/webhook/shiftTrack-carga_mis_dedatos',
-  CARGAR_USUARIOS: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-cargarusuario',
-  ELIMINAR_USUARIO: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-eliminarusuario',
-  EDITAR_USUARIO: 'https://n8n.smarttitan.pro/webhook/ShiftTrack-editarusuario',
-  ESTADO_ACTIVO: 'https://n8n.smarttitan.pro/webhook/shiftTrack-estadoactivo',
-  ZONA_HORARIA: 'https://n8n.smarttitan.pro/webhook/shiftTrack-zonahoraria',
-  ZONA_HORARIA_ACTUALIZAR: 'https://n8n.smarttitan.pro/webhook/shiftTrack-zonahoraria-actualizar'
+  REGISTRO: 'https://n8n2.ardi.group/webhook/ShiftTrack-registro',
+  LOGIN: 'https://n8n2.ardi.group/webhook/ShiftTrack-login',
+  INFO_USUARIO: 'https://n8n2.ardi.group/webhook/shifttytrack-miperfil',
+  INICIO_TURNO: 'https://n8n2.ardi.group/webhook/ShiftTrack-horadeinicio',
+  FIN_TURNO: 'https://n8n2.ardi.group/webhook/ShiftTrack-horafinal',
+  HISTORIAL_DATOS: 'https://n8n2.ardi.group/webhook/ShiftTrack-cargadedatos',
+  MIS_DATOS: 'https://n8n2.ardi.group/webhook/shiftTrack-carga_mis_dedatos',
+  CARGAR_USUARIOS: 'https://n8n2.ardi.group/webhook/ShiftTrack-cargarusuario',
+  ELIMINAR_USUARIO: 'https://n8n2.ardi.group/webhook/ShiftTrack-eliminarusuario',
+  EDITAR_USUARIO: 'https://n8n2.ardi.group/webhook/ShiftTrack-editarusuario',
+  ESTADO_ACTIVO: 'https://n8n2.ardi.group/webhook/shiftTrack-estadoactivo',
+  ZONA_HORARIA: 'https://n8n2.ardi.group/webhook/shiftTrack-zonahoraria',
+  ZONA_HORARIA_ACTUALIZAR: 'https://n8n2.ardi.group/webhook/shiftTrack-zonahoraria-actualizar'
 };
 
 const normalizeListResponse = (rawData: any): any[] => {
